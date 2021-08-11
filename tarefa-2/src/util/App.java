@@ -104,7 +104,7 @@ public class App {
 
         Quarto q2 = ctrl.findById(3);
         System.out.println("UPDATE");
-        System.out.println("#ID original: " + q2);
+        System.out.println("#ID original: " + q1);
         q2.setPrDiaria(q2.getPrDiaria() + 20);
         q2 = ctrl.update(q2);
         System.out.println("#ID alterado: " + q2);
