@@ -58,6 +58,11 @@ btPonto.addEventListener('click', function(){
 
 
 
+bt0.addEventListener('click', function(){
+    addCalc(0);
+    addDisplay(0);
+});
+
 bt1.addEventListener('click', function(){
     addCalc(1);
     addDisplay(1);
