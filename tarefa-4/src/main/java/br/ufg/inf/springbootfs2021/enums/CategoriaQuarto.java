@@ -1,5 +1,7 @@
 package br.ufg.inf.springbootfs2021.enums;
 
+import java.util.Locale;
+
 public enum CategoriaQuarto {
     SIMPLES(0, "Simples"),
     PADRAO(1, "Padrão"),
@@ -46,4 +48,5 @@ public enum CategoriaQuarto {
         }
         return categoriaQuarto;
     }
+
 }
